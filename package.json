@@ -1,42 +1,10 @@
 {
   "name": "express-fileupload",
-  "version": "1.1.1-alpha.3",
+  "version": "0.4.0",
   "author": "Richard Girges <richardgirges@gmail.com>",
-  "description": "Simple express file upload middleware that wraps around Busboy",
-  "main": "./lib/index",
-  "scripts": {
-    "test": "istanbul cover _mocha -- -R spec",
-    "lint": "eslint ./",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
-  },
+  "description": "Fork of express-fileupload for use internally at LiquidBlast",
   "dependencies": {
-    "busboy": "^0.2.14",
-    "md5": "^2.2.1",
-    "streamifier": "^0.1.1"
+    "busboy": "0.3.0"
   },
-  "engines": {
-    "node": ">=4.0.0"
-  },
-  "keywords": [
-    "express",
-    "file-upload",
-    "upload",
-    "forms",
-    "multipart",
-    "files",
-    "busboy",
-    "middleware"
-  ],
   "license": "MIT",
-  "repository": "richardgirges/express-fileupload",
-  "devDependencies": {
-    "body-parser": "^1.18.3",
-    "coveralls": "^3.0.2",
-    "eslint": "^5.9.0",
-    "express": "^4.16.3",
-    "istanbul": "^0.4.5",
-    "mocha": "^5.2.0",
-    "rimraf": "^2.6.2",
-    "supertest": "^3.3.0"
-  }
 }
